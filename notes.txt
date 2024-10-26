@@ -1,0 +1,94 @@
+* ledjes toevoegen
+* experimenteer stukje met via grid
+* one shot 555 toevoegen om puls breedte binnen de perken te houden.
+  ding schakelt wschl midden in de cyclus.
+* moet kunnen schakelen op flank en kunnen kiezen of opgaande of neergaande
+flank. -> serie condensatortje naar npn of pnp.
+
+https://electronics.stackexchange.com/questions/180716/555-timer-one-shot-trigger
+ -> alleen op of neergaande flank is voldoende, want decoder IC.
+
+* hall output ook naar microcontroller
+
+* hall spike protect circuit toevoegen
+
+
+
+
+STP110N8F6 is maar 80 V:
+MOSFET N-CH 80V 110A TO220
+
+
+Mosfet wellicht:  IPW60R160P6FKSA1-ND https://www.digikey.nl/short/0b1h39t5
+MOSFET N-CH 600V 23.8A TO247-3
+
+
+* Overspannings beveiliging: zener in serie met opto coupler en dan de
+demultiplexer disabelen:
+
+"Three strobe inputs (G2, G1 and G0) are provided to simplify cascading and to
+facilitate demultiplexing. When any input strobe is active, all outputs are
+forced into the high state for the '138 function. When any input strobe is
+active, all outputs are forced into the low state for the '238 function."
+
+
+-:-
+	
+MMBT5551 is maar 160 V. 	
+Transistors - Bipolair (BJT) - Enkel NPN 160 V 600 mA 100MHz 350 mW Opbouwmontage SOT-23-3
+hFE: 80 bij 10mA, 5V
+
+MPSA42 is TRANS NPN 300V 500MA TO92 https://www.digikey.nl/short/9m2ddzzj 
+hFE: 40 bij 30mA, 10V
+
+Ding hoeft echter maar 60 mA aan te kunnen:
+
+>>> U = 40
+>>> R = 680
+>>> U/R
+0.058823529411764705
+>>> 1000*U/R
+58.8235294117647
+>>
+
+bij hFe = 20:
+
+Ib = 60 mA / 20 = 3 mA
+
+Bij 3V3 aansturing:
+
+R = (3V3 - 0.7V) / 3 mA = 1 kOhm
+
+Bij 5V aansturing:
+
+R = (5V - 0.7V) / 3 mA = 1.43 kOhm
+
+---
+
+L8550H
+
+  Type Designator: L8550HQ
+   Material of Transistor: Si
+   Polarity: PNP
+   Maximum Collector Power Dissipation (Pc): 0.225 W
+   Maximum Collector-Base Voltage |Vcb|: 40 V
+   Maximum Collector-Emitter Voltage |Vce|: 25 V
+   Maximum Emitter-Base Voltage |Veb|: 5 V
+   Maximum Collector Current |Ic max|: 1.5 A
+   Max. Operating Junction Temperature (Tj): 150 °C
+   Forward Current Transfer Ratio (hFE), MIN: 150 
+
+L8050H
+
+
+Type Designator: L8050HSLT3G
+   SMD Transistor Code: 1HG
+   Material of Transistor: Si
+   Polarity: NPN
+   Maximum Collector Power Dissipation (Pc): 0.225 W
+   Maximum Collector-Base Voltage |Vcb|: 40 V
+   Maximum Collector-Emitter Voltage |Vce|: 25 V
+   Maximum Emitter-Base Voltage |Veb|: 5 V
+   Maximum Collector Current |Ic max|: 1.5 A
+   Max. Operating Junction Temperature (Tj): 150 °C
+   Forward Current Transfer Ratio (hFE), MIN: 300 
