@@ -5,164 +5,6 @@
 	(uuid "4e48a688-98d9-4e6f-965a-8eb7463ecf0c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Component_Library:C_Pol_470uF"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Pol_470uF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Pol_470uF_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Pol_470uF_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Components:2N5551"
 			(pin_names
 				(offset 0) hide)
@@ -353,6 +195,173 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Components:470-uF-63V-ESK477M063AL4EA"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470uF 63V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "470-uF-63V-ESK477M063AL4EA_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "470-uF-63V-ESK477M063AL4EA_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -707,7 +716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "https://www.digikey.nl/short/fbcjc4v0"
+			(property "Digikey" "https://www.digikey.nl/short/wr9f37nn"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3056,7 +3065,7 @@
 				)
 			)
 		)
-		(property "Value" "SU9V-07010"
+		(property "Value" "SU9VF-07015"
 			(at 143.0528 41.91 0)
 			(effects
 				(font
@@ -3083,7 +3092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 mH @ 1 kHz 2 Lijn Common Mode Choke Through-hole 700mA DCR 600mOhm"
+		(property "Description" "1.5 mH @ 1 kHz 2 Common Mode Choke Through-hole 700mA"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -3132,7 +3141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/fbcjc4v0"
+		(property "Digikey" "https://www.digikey.nl/short/8qzt38p9"
 			(at 143.51 49.53 0)
 			(effects
 				(font
@@ -3230,7 +3239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Component_Library:C_Pol_470uF")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 62.23 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3239,21 +3248,21 @@
 		(dnp no)
 		(uuid "30339967-fffb-46d0-a992-9c597682ab5f")
 		(property "Reference" "C1"
-			(at 63.246 85.725 0)
+			(at 62.865 83.82 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 63.246 90.551 0)
+		(property "Value" "470uF 63V"
+			(at 62.865 88.9 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
@@ -3265,7 +3274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 62.23 86.36 0)
 			(effects
 				(font
@@ -3658,7 +3667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Component_Library:C_Pol_470uF")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 64.77 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3667,21 +3676,21 @@
 		(dnp no)
 		(uuid "660a36fa-a86c-4241-b3f3-ffb07cf48eb0")
 		(property "Reference" "C7"
-			(at 65.786 48.895 0)
+			(at 65.405 46.99 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 65.786 53.721 0)
+		(property "Value" "470uF 63V"
+			(at 65.405 52.07 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
@@ -3693,7 +3702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 64.77 49.53 0)
 			(effects
 				(font
@@ -4503,7 +4512,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.nl/short/7nprw4r0"
+		(property "Digikey" "https://www.digikey.nl/short/7nprw4r0"
 			(at 50.8 80.01 0)
 			(effects
 				(font

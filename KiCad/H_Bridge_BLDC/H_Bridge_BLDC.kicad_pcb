@@ -7736,7 +7736,7 @@
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "05c3b3e6-8b39-40ee-8515-f57fe149c8b4")
 			(effects
@@ -7747,7 +7747,7 @@
 			)
 		)
 		(property "Value" "Hall In"
-			(at 0 12.49 360)
+			(at 0 12.49 0)
 			(layer "F.Fab")
 			(uuid "09048188-bed0-45f7-b186-c297bd444c6d")
 			(effects
@@ -12080,7 +12080,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q8"
-			(at -1.7 -3.12 360)
+			(at -1.7 -3.12 0)
 			(layer "F.SilkS")
 			(uuid "09e709f0-0577-4ad1-985c-4b55392275bd")
 			(effects
@@ -12091,7 +12091,7 @@
 			)
 		)
 		(property "Value" "2N5401"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "0bbea2a9-b2b7-4f5e-8e8e-c4707469e39e")
 			(effects
@@ -12263,7 +12263,7 @@
 			(uuid "9cf15bd4-2e1b-45be-bbe8-d6b246411314")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "4d3f4888-a492-44f3-8f54-51e27cdf51c9")
 			(effects
@@ -12600,7 +12600,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q16"
-			(at -1.9 -3.2 360)
+			(at -1.9 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "059ca02d-2ca9-4859-9785-1c9b13987876")
 			(effects
@@ -12611,7 +12611,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1 4 360)
+			(at 1 4 0)
 			(layer "F.Fab")
 			(uuid "cff6bf65-8047-4bcc-be4c-5f954c12725b")
 			(effects
@@ -12783,7 +12783,7 @@
 			(uuid "cb474390-ff08-4718-bdc0-555236420cb6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "6be1828e-492b-4615-a2a0-3f38ddf810bc")
 			(effects
@@ -12855,7 +12855,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470uF 63V"
 			(at -1.939823 6 90)
 			(layer "F.Fab")
 			(uuid "98f997c3-c196-4010-b3d1-112e784c5047")
@@ -12879,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14946,7 +14946,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q14"
-			(at -2 -3.2 360)
+			(at -2 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "145a5b05-d7dc-46a9-97b7-875e2bfd423c")
 			(effects
@@ -14957,7 +14957,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1 4.5 360)
+			(at 1 4.5 0)
 			(layer "F.Fab")
 			(uuid "e5ef1595-d5ce-40de-b98d-cbe806abfac1")
 			(effects
@@ -15129,7 +15129,7 @@
 			(uuid "53993029-69be-474b-a9d8-adb5ab214c6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "01b35b8b-d82d-4a2a-9ab8-93f3a6fd05e8")
 			(effects
@@ -15199,7 +15199,7 @@
 				)
 			)
 		)
-		(property "Value" "SU9V-07010"
+		(property "Value" "SU9VF-07015"
 			(at -10.5 0 90)
 			(layer "F.Fab")
 			(uuid "e7eced57-d905-4e86-87be-aae041ecb910")
@@ -15234,7 +15234,7 @@
 				)
 			)
 		)
-		(property "Description" "1 mH @ 1 kHz 2 Lijn Common Mode Choke Through-hole 700mA DCR 600mOhm"
+		(property "Description" "1.5 mH @ 1 kHz 2 Common Mode Choke Through-hole 700mA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15298,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/fbcjc4v0"
+		(property "Digikey" "https://www.digikey.nl/short/8qzt38p9"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16051,7 +16051,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q13"
-			(at -1.9 -3.12 360)
+			(at -1.9 -3.12 0)
 			(layer "F.SilkS")
 			(uuid "991c54d7-3253-4765-98ba-11690ea569b3")
 			(effects
@@ -16062,7 +16062,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "a5b54c15-498f-4cc5-9da0-624d895c5f9f")
 			(effects
@@ -16234,7 +16234,7 @@
 			(uuid "e3fb260e-0de9-4174-80c1-a116816cfd25")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "61dd8adc-fe57-49fc-9ad6-38f3305a460f")
 			(effects
@@ -21061,7 +21061,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
 			(uuid "d4a5d547-9087-4cad-b65f-b9b0f4421ffe")
@@ -21085,7 +21085,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21111,7 +21111,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24319,7 +24319,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q15"
-			(at -1.8 -3.1 360)
+			(at -1.8 -3.1 0)
 			(layer "F.SilkS")
 			(uuid "cab7e11f-9f07-4aa0-a8c2-89c8cdfcd13d")
 			(effects
@@ -24330,7 +24330,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "90ec9e6c-dab6-4fe8-b31f-35148c42fd13")
 			(effects
@@ -24502,7 +24502,7 @@
 			(uuid "91896ef6-5859-4e2c-afdc-814c1159815a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "9730d515-389d-43a2-b571-d19062ef0ada")
 			(effects
@@ -25234,7 +25234,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "470uF 63V"
 			(at -3.5 3.25 90)
 			(layer "F.Fab")
 			(uuid "7a6a4f1a-70e2-4d9c-91f8-11565a34839f")
@@ -25258,7 +25258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28991,7 +28991,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q18"
-			(at -2 -3 360)
+			(at -2 -3 0)
 			(layer "F.SilkS")
 			(uuid "ebc68fdd-2ec4-42c9-bece-e953fa54b15d")
 			(effects
@@ -29002,7 +29002,7 @@
 			)
 		)
 		(property "Value" "2N5401"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "19e39d66-ebbe-4d82-868a-98bf4780d80c")
 			(effects
@@ -29174,7 +29174,7 @@
 			(uuid "f159db4c-5264-4a76-a653-3a4761f70c20")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "de0beed7-7d74-469b-ad22-29d56798389c")
 			(effects
@@ -33098,7 +33098,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q17"
-			(at -2 -3.2 360)
+			(at -2 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "3d652ee6-9f4e-4673-9068-523ed7cc82e7")
 			(effects
@@ -33109,7 +33109,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "83c63f86-a90d-484f-b63d-dca1008a0be5")
 			(effects
@@ -33281,7 +33281,7 @@
 			(uuid "eb994128-f153-4a82-bffd-4b8cd2e569e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "82e08187-747b-452d-b89a-2492a99a8c35")
 			(effects
@@ -34376,7 +34376,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q12"
-			(at -2.4 -3.2 360)
+			(at -2.4 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "b5b25295-6849-44b1-b2d4-85c803a5e8d2")
 			(effects
@@ -34387,7 +34387,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1 4.5 360)
+			(at 1 4.5 0)
 			(layer "F.Fab")
 			(uuid "f7f8c76b-5d8f-4c47-a800-bb116ae09b3c")
 			(effects
@@ -34559,7 +34559,7 @@
 			(uuid "b7674ddd-4791-4051-b6f6-db4015a5cb3f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "9445720b-f2d6-46fa-858f-bfb8d720a53a")
 			(effects
@@ -34889,7 +34889,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q10"
-			(at 1.27 -3.56 360)
+			(at 1.27 -3.56 0)
 			(layer "F.SilkS")
 			(uuid "927df4c8-8d97-4930-bc04-7eecb8bec63b")
 			(effects
@@ -34900,7 +34900,7 @@
 			)
 		)
 		(property "Value" "2N5551"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "d558c847-e732-4d4a-9670-fa782cd24583")
 			(effects
@@ -35072,7 +35072,7 @@
 			(uuid "ac23099f-c353-481c-92f7-e63faee2d0b6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "53e2b6a4-6557-4d6a-b58a-55a64dfa4749")
 			(effects
@@ -36476,7 +36476,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
 			(uuid "5f27fe9e-0f53-4f37-8743-21daf1f9f5f0")
@@ -36500,7 +36500,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36526,7 +36526,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41988,7 +41988,7 @@
 			(uuid "52a62d90-fb8b-4372-bd57-caa8c791cce1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "653f8841-b0a0-44d4-b480-055ab63ec3ec")
 			(effects
@@ -43452,7 +43452,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
 			(uuid "59048d0c-9f96-4ed1-8838-0f9e912d9d8d")
@@ -43476,7 +43476,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43502,7 +43502,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47366,7 +47366,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q7"
-			(at -1.4 -3.2 360)
+			(at -1.4 -3.2 0)
 			(layer "F.SilkS")
 			(uuid "86523769-bbe2-47c4-95e7-cb6b0328c68a")
 			(effects
@@ -47377,7 +47377,7 @@
 			)
 		)
 		(property "Value" "2N5401"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "79d8e37d-407a-4771-8920-98b0f8240afd")
 			(effects
@@ -47549,7 +47549,7 @@
 			(uuid "ad9f1f44-279f-4497-aab1-4ccf80175edf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "5ef0f629-0479-4232-9c64-fa0da8326baf")
 			(effects
@@ -47621,7 +47621,7 @@
 				)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 2.5 6.25 0)
 			(layer "F.Fab")
 			(uuid "d7bbc154-1772-459e-997f-afd9e8101453")
@@ -47645,7 +47645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47671,7 +47671,7 @@
 				)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51100,7 +51100,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U2"
-			(at -3.9225 -0.80625 180)
+			(at -3.9225 -0.80625 0)
 			(layer "F.SilkS")
 			(uuid "4269b874-4f64-4eaf-a68b-9b0ba8b97dfd")
 			(effects
@@ -51160,12 +51160,12 @@
 				)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.nl/short/7nprw4r0"
+		(property "Digikey" "https://www.digikey.nl/short/7nprw4r0"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5c3258b-5ded-426d-ae64-6bc8ace4c287")
+			(uuid "0d8419ac-0392-4fdd-ba4b-113f84ccf903")
 			(effects
 				(font
 					(size 1 1)

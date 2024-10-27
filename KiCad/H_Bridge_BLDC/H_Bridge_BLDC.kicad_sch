@@ -204,7 +204,7 @@
 				)
 			)
 		)
-		(symbol "Components:470-uF-50V-ECA-1HM471"
+		(symbol "Components:470-uF-63V-ESK477M063AL4EA"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -221,7 +221,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "470uF 50V"
+			(property "Value" "470uF 63V"
 				(at 0.635 -2.54 0)
 				(effects
 					(font
@@ -239,7 +239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+			(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -257,7 +257,7 @@
 					(hide yes)
 				)
 			)
-			(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+			(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 				(at 0 0 0)
 				(effects
 					(font
@@ -284,7 +284,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "470-uF-50V-ECA-1HM471_0_1"
+			(symbol "470-uF-63V-ESK477M063AL4EA_0_1"
 				(rectangle
 					(start -2.286 0.508)
 					(end 2.286 1.016)
@@ -332,7 +332,7 @@
 					)
 				)
 			)
-			(symbol "470-uF-50V-ECA-1HM471_1_1"
+			(symbol "470-uF-63V-ESK477M063AL4EA_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -5971,7 +5971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Components:470-uF-50V-ECA-1HM471")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 220.98 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5988,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 221.615 57.15 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 220.98 54.61 0)
 			(effects
 				(font
@@ -6024,7 +6024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 220.98 54.61 0)
 			(effects
 				(font
@@ -6867,7 +6867,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Components:470-uF-50V-ECA-1HM471")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 220.98 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6884,7 +6884,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 221.615 81.28 0)
 			(effects
 				(font
@@ -6902,7 +6902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -6920,7 +6920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -7568,7 +7568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Components:470-uF-50V-ECA-1HM471")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 220.98 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7585,7 +7585,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 221.615 100.33 0)
 			(effects
 				(font
@@ -7603,7 +7603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -7621,7 +7621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 220.98 97.79 0)
 			(effects
 				(font
@@ -8818,7 +8818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Components:470-uF-50V-ECA-1HM471")
+		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
 		(at 220.98 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8835,7 +8835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF 250V"
+		(property "Value" "470uF 63V"
 			(at 221.615 35.56 0)
 			(effects
 				(font
@@ -8853,7 +8853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2452/ECA-xxM%20Series%2CTypeA.pdf"
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
 			(at 220.98 33.02 0)
 			(effects
 				(font
@@ -8871,7 +8871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.nl/short/nq94djb8"
+		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
 			(at 220.98 33.02 0)
 			(effects
 				(font
