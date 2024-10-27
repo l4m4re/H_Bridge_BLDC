@@ -12,6 +12,8 @@ https://electronics.stackexchange.com/questions/180716/555-timer-one-shot-trigge
 
 * hall spike protect circuit toevoegen
 
+* over voltage detection na kijken en input voor microcontroller
+
 
 
 
@@ -30,6 +32,29 @@ demultiplexer disabelen:
 facilitate demultiplexing. When any input strobe is active, all outputs are
 forced into the high state for the '138 function. When any input strobe is
 active, all outputs are forced into the low state for the '238 function."
+
+
+
+-:-
+
+Transistoren nakijken.
+
+
+BC33740BU   TRANS NPN 45V 0.8A TO92-3     € 0,18 
+BC32740BU   TRANS NPN 45V 0.8A TO92-3     € 0,20
+
+2N5551      TRANS NPN 160V 600mA TO92     € 0,14   https://www.digikey.nl/short/fcdtmq3q 
+2N5401      TRANS PNP 150V 600mA TO92     € 0,09   https://www.digikey.nl/short/hzc70v0h  
+
+TIP3055G    TRANS NPN 60V 15A TO247-3     € 2,50   https://www.digikey.nl/short/289f8jv5
+TIP2955G    TRANS PNP 60V 15A TO247-3     € 2,28   https://www.digikey.nl/short/tf5rvdp2 
+
+BDW93C      TRANS NPN DARL 100V 12A TO220 € 0,97   https://www.digikey.nl/short/34rr5f8t
+BDW94C      TRANS PNP DARL 100V 12A TO220 € 1,11   https://www.digikey.nl/short/7b7m2jmn  
+
+
+BDX34C      TRANS PNP DARL 100V 10A TO220 € 0,78   https://www.digikey.nl/short/1hjqbhnh
+
 
 
 -:-

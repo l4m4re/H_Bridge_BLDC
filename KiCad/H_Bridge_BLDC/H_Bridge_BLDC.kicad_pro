@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.6,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -179,6 +179,7 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
         0.5,
         1.0,
         2.0,
@@ -216,8 +217,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.0,
-          "drill": 0.0
+          "diameter": 1.6,
+          "drill": 0.8
+        },
+        {
+          "diameter": 2.4,
+          "drill": 1.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -487,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -606,7 +611,7 @@
   "sheets": [
     [
       "aeb68331-6711-40f3-bf75-cc15a682417a",
-      "Root"
+      "Hoofdblad"
     ],
     [
       "316b63c2-d13c-463b-a089-a4cc3f0b400a",
