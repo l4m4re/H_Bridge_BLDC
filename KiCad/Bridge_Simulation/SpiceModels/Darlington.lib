@@ -1,0 +1,95 @@
+*** From file BDW93C.lib
+* BDW93C NPN EPITAXIAL SILICON TRANSISTOR ELECTRICAL PARAMETER
+* Power Darlington Transistor
+* =======================================================================
+* Hammer Drivers, Audio Amplifiers Applications
+* Complement to BDW94, BDW94A, BDW94B and BDW94C Respectively
+* =======================================================================
+* Vcbo & Vceo: BDW93 45V / BDW93A 60V / BDW93B 80V / BDW93C 100V
+* Ic(DC) 12A / Ic(Pulse) 15A / Ib 0.2A
+* =======================================================================
+* Connections:    Collector 1   Base 2  Emitter 3
+* =======================================================================
+.SUBCKT BDW93C     1  2  3
+Q1 1 2 4 Q1model
+Q2 1 4 3 Q2model 5.2266
+D1 3 1   Dmodel
+R1 2 4   10.000E3
+R2 4 3   600
+.MODEL Dmodel D
++ IS=1.67E-12                N=1.01                  RS=1.854
++ CJO=2.8833E-10             M=0.3227                VJ=0.4449
++ BV=110.0                   IBV=0.1
+.MODEL Q1model NPN
++  IS=1.4507E-14             BF=7.88E3               NF=0.85
++  VAF=138.92                IKF=0.8207              ISE=6.298E-13
++  NE=1.2                    BR=21.99                NR=0.8
++  VAR=200                   IKR=0.5                 ISC=1.367E-13
++  NC=2.8                    RB=6.193                NK=0.6
++  RE=0.001                  RC=0.185                EG=1.110
++  CJE=1.055E-10             VJE=0.7775              MJE=0.4512
++  CJC=1.601E-10             VJC=0.8966              MJC=0.3035
++  XCJC=0.4455               FC=0.5
+.MODEL Q2model NPN
++  IS=1.4507E-14             BF=7.88E3               NF=0.85
++  VAF=138.92                IKF=0.8207              ISE=6.298E-13
++  NE=1.2                    BR=21.99                NR=0.8
++  VAR=200                   IKR=0.5                 ISC=1.367E-13
++  NC=2.8                    RB=6.193                NK=0.6
++  RE=0.001                  RC=0.185                EG=1.110
++  CJE=1.055E-10             VJE=0.7775              MJE=0.4512
++  CJC=1.601E-10             VJC=0.8966              MJC=0.3035
++  XCJC=0.4455               FC=0.5
+.ENDS BDW93C
+* ======================================================================
+* FAIRCHILD     CASE: TO-220      PID: BDW93C
+* FEB-02-2001 CREATION
+
+
+
+*** From file BDW94C.lib
+* BDW94C PNP EPITAXIAL SILICON TRANSISTOR ELECTRICAL PARAMETER
+* Power Darlington Transistor
+* =======================================================================
+* Power Linear and Switching Applications
+* Complement to BDW93, BDW93A, BDW93B and BDW93C Respectively
+* =======================================================================
+* Vcbo & Vceo: BDW94 -45V / BDW94A -60V / BDW94B -80V / BDW94C -100V
+* Ic(DC) -12A / Ic(Pulse) -15A / Ib -0.2A
+* =======================================================================
+* Connections:    Collector 1   Base 2  Emitter 3
+* =======================================================================
+.SUBCKT BDW94C    1  2  3
+Q1 1 2 4 Q1model
+Q2 1 4 3 Q2model 5.2266
+D1 1 3 Dmodel
+R1 2 4 10.000E3
+R2 4 3 600
+.MODEL Dmodel D
++ IS=5.29E-12             N=1.087             RS=1.533
++ CJO=3.888136E-10        M=0.3464517         VJ=0.6514732
++ BV=110.0                IBV=0.1
+.MODEL Q1model PNP
++  IS=1.02E-14            BF=4.297E3           NF=1
++  VAF=55.63              IKF=0.15858          ISE=2.255E-12
++  NE=1.533               BR=4.995             NR=1.1
++  VAR=100                IKR=19.98            ISC=2.38E-9
++  NC=2.997               RB=1.63932           NK=0.5957
++  RE=0.002               RC=0.3025            EG=1.0569
++  CJE=2.248747E-10       VJE=0.8353946        MJE=0.3402586
++  CJC=2.256645E-10       VJC=0.6074885        MJC=0.2521917
++  XCJC=0.4445            FC=0.5
+.MODEL Q2model PNP
++  IS=1.02E-14            BF=4.297E3           NF=1
++  VAF=55.63              IKF=0.15858          ISE=2.255E-12
++  NE=1.533               BR=4.995             NR=1.1
++  VAR=100                IKR=19.98            ISC=2.38E-9
++  NC=2.997               RB=1.63932           NK=0.5957
++  RE=0.002               RC=0.3025            EG=1.0569
++  CJE=2.248747E-10       VJE=0.8353946        MJE=0.3402586
++  CJC=2.256645E-10       VJC=0.6074885        MJC=0.2521917
++  XCJC=0.4445            FC=0.5
+.ENDS BDW94C
+* ======================================================================
+* FAIRCHILD      CASE: TO-220      PID: BDW94C
+* FEB-02-2001 CREATION
