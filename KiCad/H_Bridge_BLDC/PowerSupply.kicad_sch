@@ -4274,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 127 40.64 90)
 			(effects
 				(font
@@ -4342,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "68"
 			(at 127 50.8 90)
 			(effects
 				(font

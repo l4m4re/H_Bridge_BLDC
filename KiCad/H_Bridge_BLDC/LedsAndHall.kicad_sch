@@ -10663,7 +10663,7 @@
 				)
 			)
 		)
-		(property "Value" "550"
+		(property "Value" "560"
 			(at 33.02 128.27 90)
 			(effects
 				(font
@@ -10798,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Value" "550"
+		(property "Value" "560"
 			(at 81.28 128.27 90)
 			(effects
 				(font
@@ -11424,7 +11424,7 @@
 				)
 			)
 		)
-		(property "Value" "550"
+		(property "Value" "560"
 			(at 128.27 128.27 90)
 			(effects
 				(font
