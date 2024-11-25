@@ -2291,12 +2291,6 @@
 		(uuid "2b751f1d-2c30-49c4-bb57-d3f400ef1fb9")
 	)
 	(junction
-		(at 144.78 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31a3e97b-9a26-4247-8f1c-91658dc31b05")
-	)
-	(junction
 		(at 64.77 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2319,6 +2313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4808699d-7aba-4af0-9a5c-39e021f86853")
+	)
+	(junction
+		(at 144.78 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fae756d-06a2-4d6f-974a-770b91cae57c")
 	)
 	(junction
 		(at 71.12 80.01)
@@ -2399,6 +2399,16 @@
 			(type default)
 		)
 		(uuid "1519aaf1-e867-4a88-a467-478b18148598")
+	)
+	(wire
+		(pts
+			(xy 144.78 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2126b12b-82e0-4472-b58e-3af3a053e49b")
 	)
 	(wire
 		(pts
@@ -2792,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5989826-4981-48cd-90ee-7986616c0804")
+	)
+	(wire
+		(pts
 			(xy 104.14 44.45) (xy 123.19 44.45)
 		)
 		(stroke
@@ -2819,16 +2839,6 @@
 			(type default)
 		)
 		(uuid "ddd2acfc-a41d-4250-8b86-247fd16c7e21")
-	)
-	(wire
-		(pts
-			(xy 144.78 99.06) (xy 158.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65336a6-d492-4170-83cb-1db7c808bfb6")
 	)
 	(wire
 		(pts
@@ -2869,6 +2879,16 @@
 			)
 		)
 		(uuid "2b3b3755-ed44-482d-9ae8-b52094775d36")
+	)
+	(text "R48 must be\nmanually added"
+		(exclude_from_sim no)
+		(at 160.02 104.648 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5654bf01-330d-4eb0-8765-052d649b9a3a")
 	)
 	(text "Spike protection"
 		(exclude_from_sim no)
@@ -2957,7 +2977,7 @@
 	)
 	(global_label "HALL_ENABLE"
 		(shape input)
-		(at 158.75 99.06 0)
+		(at 166.37 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2967,7 +2987,7 @@
 		)
 		(uuid "e29bdec8-06ba-414e-9a9f-89f522f030b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.1933 99.06 0)
+			(at 181.8133 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,6 +4633,73 @@
 			(project ""
 				(path "/aeb68331-6711-40f3-bf75-cc15a682417a/0ee02df5-2d7f-4946-a04b-92c898f0c4eb"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3724e0a-fabe-469b-9e95-3feca3445ab1")
+		(property "Reference" "R48"
+			(at 158.75 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 158.75 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 158.75 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3261426-ce44-412f-a821-ff83fbaa3cc2")
+		)
+		(pin "2"
+			(uuid "fc42f707-a538-4f91-a634-6533ff6e10d8")
+		)
+		(instances
+			(project "H_Bridge_BLDC"
+				(path "/aeb68331-6711-40f3-bf75-cc15a682417a/0ee02df5-2d7f-4946-a04b-92c898f0c4eb"
+					(reference "R48")
 					(unit 1)
 				)
 			)

@@ -3304,6 +3304,24 @@
 		(uuid "2ecf99dc-a389-43f1-95f0-686c7bb40dea")
 	)
 	(junction
+		(at 220.98 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c4b1d99-46c0-4cba-9c0c-d1846735c904")
+	)
+	(junction
+		(at 220.98 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb9cdfa-5187-461e-bba1-a82a93f0dcfb")
+	)
+	(junction
+		(at 203.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d26b322-9385-44ac-9878-b3294b7dd787")
+	)
+	(junction
 		(at 139.7 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3316,10 +3334,22 @@
 		(uuid "5aa7d351-7daf-4b46-bbdc-9d03fa147f11")
 	)
 	(junction
+		(at 237.49 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61816064-726d-416d-93b9-c8305cf0a003")
+	)
+	(junction
 		(at 83.82 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63b13f26-048f-4baf-b7a0-81ad72817e35")
+	)
+	(junction
+		(at 226.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67745a8a-2b9c-407c-8ccb-64f87097bbd8")
 	)
 	(junction
 		(at 64.77 24.13)
@@ -3358,10 +3388,10 @@
 		(uuid "9628e0f4-c88d-4922-a593-a144a6753249")
 	)
 	(junction
-		(at 220.98 85.09)
+		(at 220.98 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ad2128e-b934-470f-87e1-a9505b1769e5")
+		(uuid "9e038f8e-7794-4625-827d-2fc24990da3c")
 	)
 	(junction
 		(at 83.82 73.66)
@@ -3388,13 +3418,19 @@
 		(uuid "bfea07af-0010-4055-b0cb-441d668c8b36")
 	)
 	(junction
+		(at 237.49 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c892f152-995c-4e02-8834-616e596f9d1e")
+	)
+	(junction
 		(at 83.82 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdb95f4f-ce71-4aec-bb90-51bd717e4d90")
 	)
 	(junction
-		(at 220.98 39.37)
+		(at 220.98 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf3ddb79-d666-4ba7-8585-8bab22c3e1dd")
@@ -3412,10 +3448,10 @@
 		(uuid "d8f652f4-0157-4089-8212-ebf6c696e54f")
 	)
 	(junction
-		(at 203.2 85.09)
+		(at 220.98 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "efff540d-05df-4ffe-935c-766c5e12352c")
+		(uuid "e8df4142-c228-446e-a6b2-1463fba1f725")
 	)
 	(junction
 		(at 120.65 35.56)
@@ -3431,7 +3467,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 220.98 64.77)
+			(xy 220.98 62.23) (xy 220.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3491,7 +3527,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 220.98 93.98)
+			(xy 220.98 92.71) (xy 220.98 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3538,6 +3574,26 @@
 			(type default)
 		)
 		(uuid "150f0830-729c-4790-88f4-f1ac3417ba8f")
+	)
+	(wire
+		(pts
+			(xy 220.98 50.8) (xy 226.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176515fa-5180-4cb2-b5cc-d85a1039eaa5")
+	)
+	(wire
+		(pts
+			(xy 233.68 50.8) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196c52ff-0baf-4cee-a4d1-107181de66ad")
 	)
 	(wire
 		(pts
@@ -3591,6 +3647,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 99.06) (xy 226.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a45c5a-4ccf-41f5-9e69-90aeb89daa17")
+	)
+	(wire
+		(pts
 			(xy 152.4 111.76) (xy 156.21 111.76)
 		)
 		(stroke
@@ -3621,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 72.39) (xy 220.98 74.93)
+			(xy 220.98 71.12) (xy 220.98 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3671,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 36.83) (xy 220.98 39.37)
+			(xy 220.98 38.1) (xy 220.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3821,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 92.71) (xy 227.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5093a37c-5c4c-48b6-a386-42e10d774e53")
+	)
+	(wire
+		(pts
 			(xy 115.57 93.98) (xy 115.57 95.25)
 		)
 		(stroke
@@ -3871,7 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 62.23) (xy 203.2 85.09)
+			(xy 203.2 62.23) (xy 203.2 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3911,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 92.71) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2dfb01-7910-43a8-a994-e08fe9b0f596")
+	)
+	(wire
+		(pts
 			(xy 203.2 105.41) (xy 212.09 105.41)
 		)
 		(stroke
@@ -3921,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 58.42) (xy 220.98 62.23)
+			(xy 220.98 59.69) (xy 220.98 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 39.37) (xy 220.98 41.91)
+			(xy 220.98 40.64) (xy 220.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3951,16 +4037,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 82.55) (xy 220.98 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7063f6bd-e883-4254-a209-b6a2f03eba18")
-	)
-	(wire
-		(pts
 			(xy 139.7 46.99) (xy 129.54 46.99)
 		)
 		(stroke
@@ -3968,6 +4044,16 @@
 			(type default)
 		)
 		(uuid "73ebbcce-4825-4c28-a0df-bd3b5831939d")
+	)
+	(wire
+		(pts
+			(xy 234.95 72.39) (xy 237.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7820b456-4db0-4049-92b4-ee1ad9ca7177")
 	)
 	(wire
 		(pts
@@ -4001,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 49.53) (xy 220.98 50.8)
+			(xy 220.98 50.8) (xy 220.98 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4121,6 +4207,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 72.39) (xy 220.98 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9455d3c0-22f6-4144-9567-f1ba5991fec5")
+	)
+	(wire
+		(pts
 			(xy 166.37 74.93) (xy 166.37 81.28)
 		)
 		(stroke
@@ -4141,6 +4237,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 99.06) (xy 226.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96de78ad-ebaf-4c4b-bb68-d1bd62d52ba1")
+	)
+	(wire
+		(pts
 			(xy 166.37 38.1) (xy 166.37 54.61)
 		)
 		(stroke
@@ -4148,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "9b8790dc-03cf-417b-a558-3fc20d26ea9f")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28) (xy 220.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d912abf-0057-4b6a-a08a-265d07a2b7c2")
 	)
 	(wire
 		(pts
@@ -4181,6 +4297,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 72.39) (xy 227.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a94b09-d0bd-4170-9962-43dc66b9bb62")
+	)
+	(wire
+		(pts
 			(xy 153.67 83.82) (xy 153.67 81.28)
 		)
 		(stroke
@@ -4191,6 +4317,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 29.21) (xy 220.98 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a466c529-c665-4c02-8ba2-7118166d696e")
+	)
+	(wire
+		(pts
 			(xy 83.82 35.56) (xy 87.63 35.56)
 		)
 		(stroke
@@ -4198,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "b240f4fa-d8d6-421d-8679-717ca5bba4c1")
+	)
+	(wire
+		(pts
+			(xy 237.49 29.21) (xy 220.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70b85c1-68ba-477d-a0d8-5d639e2b9271")
 	)
 	(wire
 		(pts
@@ -4221,7 +4367,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 105.41) (xy 220.98 101.6)
+			(xy 237.49 92.71) (xy 237.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b950581e-b8f3-40ac-a6d4-e8817755b8b1")
+	)
+	(wire
+		(pts
+			(xy 220.98 105.41) (xy 220.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4241,7 +4397,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 207.01 39.37)
+			(xy 203.2 40.64) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4301,6 +4457,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 50.8) (xy 237.49 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee80029-e16f-41e0-83e1-7982384308db")
+	)
+	(wire
+		(pts
 			(xy 120.65 95.25) (xy 120.65 35.56)
 		)
 		(stroke
@@ -4341,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 203.2 62.23)
+			(xy 203.2 40.64) (xy 203.2 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4351,7 +4517,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 39.37) (xy 220.98 39.37)
+			(xy 237.49 72.39) (xy 237.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87e4425-cdad-4be4-bd41-3acf38e7ae58")
+	)
+	(wire
+		(pts
+			(xy 220.98 82.55) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c0cd63-5ccf-42ac-bd2a-6f54fbd55985")
+	)
+	(wire
+		(pts
+			(xy 214.63 40.64) (xy 220.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 85.09) (xy 220.98 85.09)
+			(xy 215.9 82.55) (xy 220.98 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4401,16 +4587,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 203.2 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e13069cf-67ad-4e62-b6dc-addae08ab810")
-	)
-	(wire
-		(pts
 			(xy 144.78 99.06) (xy 146.05 99.06)
 		)
 		(stroke
@@ -4441,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 208.28 85.09)
+			(xy 203.2 82.55) (xy 208.28 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4478,6 +4654,16 @@
 			(type default)
 		)
 		(uuid "e87c0449-54b6-4797-adc1-0f6bb5e380bb")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 237.49 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90ef434-f4ec-4b59-976e-2503f3c63eb3")
 	)
 	(wire
 		(pts
@@ -4601,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 82.55) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d9b3d1-441c-48cd-8d59-f02ba3543b00")
+	)
+	(wire
+		(pts
 			(xy 181.61 74.93) (xy 181.61 78.74)
 		)
 		(stroke
@@ -4618,6 +4814,16 @@
 			(type default)
 		)
 		(uuid "fdc1c9a8-9134-4ab2-82fd-9d9cc14f6def")
+	)
+	(text "D26-D28 must be \nmanually added"
+		(exclude_from_sim no)
+		(at 241.808 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8754d7c5-09b4-459a-843e-82c0c35ec4c8")
 	)
 	(label "C1"
 		(at 109.22 59.69 0)
@@ -4675,7 +4881,7 @@
 		(uuid "bf7d9289-b16b-45f2-9580-5cb75ecc3a8f")
 	)
 	(label "SINGLE_CAP"
-		(at 226.06 92.71 0)
+		(at 227.33 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4742,7 +4948,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 212.09 85.09 0)
+		(at 212.09 82.55 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4751,7 +4957,7 @@
 		(dnp no)
 		(uuid "08089ec7-533b-40e2-9b8a-72f7c28b0e0f")
 		(property "Reference" "D4"
-			(at 212.09 82.55 0)
+			(at 212.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4965,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 212.09 87.63 0)
+			(at 212.09 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,7 +4973,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 212.09 89.535 0)
+			(at 212.09 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4982,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 212.09 85.09 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4991,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 212.09 85.09 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +5000,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 212.09 85.09 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4803,7 +5009,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 212.09 85.09 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +5034,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 220.98 68.58 270)
+		(at 220.98 67.31 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4837,7 +5043,7 @@
 		(dnp no)
 		(uuid "0bc09317-ce5e-4221-9f05-ac1a184400b1")
 		(property "Reference" "D6"
-			(at 223.52 68.58 0)
+			(at 223.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +5051,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 218.44 68.58 0)
+			(at 218.44 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5059,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 216.535 68.58 0)
+			(at 216.535 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 220.98 68.58 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5077,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 220.98 68.58 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5086,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 68.58 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +5095,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 68.58 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,6 +5568,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5408")
+		(at 231.14 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f2b88f8-6ab1-4e1d-b565-419377aac08c")
+		(property "Reference" "D27"
+			(at 231.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 231.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 231.14 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0918126d-2f6e-4ab7-9bbf-5b92f7a6348a")
+		)
+		(pin "2"
+			(uuid "3e8fa255-abe2-43fd-b57d-c519a57c3740")
+		)
+		(instances
+			(project "H_Bridge_BLDC"
+				(path "/aeb68331-6711-40f3-bf75-cc15a682417a"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x15_Counter_Clockwise")
 		(at 107.95 162.56 0)
 		(unit 1)
@@ -5515,7 +5807,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 220.98 45.72 270)
+		(at 220.98 46.99 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5524,7 +5816,7 @@
 		(dnp no)
 		(uuid "38fb2269-a4f9-453f-b112-e10f92ed47c7")
 		(property "Reference" "D5"
-			(at 223.52 45.72 0)
+			(at 223.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5532,7 +5824,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 218.44 45.72 0)
+			(at 218.44 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5832,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 216.535 45.72 0)
+			(at 216.535 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5841,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 220.98 45.72 0)
+			(at 220.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5850,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 220.98 45.72 0)
+			(at 220.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5859,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 45.72 0)
+			(at 220.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5868,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 45.72 0)
+			(at 220.98 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5753,7 +6045,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 220.98 88.9 270)
+		(at 220.98 87.63 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5762,7 +6054,7 @@
 		(dnp no)
 		(uuid "3fa73b8e-3cbf-4587-be90-24b552ecad39")
 		(property "Reference" "D7"
-			(at 223.52 88.9 0)
+			(at 223.52 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +6062,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 218.44 88.9 0)
+			(at 218.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 216.535 88.9 0)
+			(at 216.535 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 220.98 88.9 0)
+			(at 220.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +6088,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 220.98 88.9 0)
+			(at 220.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +6097,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 88.9 0)
+			(at 220.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +6106,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 88.9 0)
+			(at 220.98 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +6264,7 @@
 	)
 	(symbol
 		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
-		(at 220.98 54.61 0)
+		(at 220.98 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5980,7 +6272,7 @@
 		(dnp no)
 		(uuid "488cb8be-9347-4324-9871-2881d7f2ab5e")
 		(property "Reference" "C4"
-			(at 221.615 52.07 0)
+			(at 221.615 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6281,7 @@
 			)
 		)
 		(property "Value" "470uF 63V"
-			(at 221.615 57.15 0)
+			(at 221.615 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6290,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 221.9452 58.42 0)
+			(at 221.9452 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6299,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
-			(at 220.98 54.61 0)
+			(at 220.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,7 +6308,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 220.98 54.61 0)
+			(at 220.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,7 +6317,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
-			(at 220.98 54.61 0)
+			(at 220.98 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6939,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 210.82 39.37 0)
+		(at 210.82 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6656,7 +6948,7 @@
 		(dnp no)
 		(uuid "80d6eb2f-a47d-47d0-8906-3ae36dde7095")
 		(property "Reference" "D2"
-			(at 210.82 36.83 0)
+			(at 210.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6956,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 210.82 41.91 0)
+			(at 210.82 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +6964,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 210.82 43.815 0)
+			(at 210.82 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6973,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 210.82 39.37 0)
+			(at 210.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6982,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 210.82 39.37 0)
+			(at 210.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6991,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 210.82 39.37 0)
+			(at 210.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +7000,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 39.37 0)
+			(at 210.82 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +7160,7 @@
 	)
 	(symbol
 		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
-		(at 220.98 78.74 0)
+		(at 220.98 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6876,7 +7168,7 @@
 		(dnp no)
 		(uuid "8c9f78af-b32b-4ced-b937-ec3d84af6116")
 		(property "Reference" "C5"
-			(at 221.615 76.2 0)
+			(at 221.615 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +7177,7 @@
 			)
 		)
 		(property "Value" "470uF 63V"
-			(at 221.615 81.28 0)
+			(at 221.615 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +7186,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 221.9452 82.55 0)
+			(at 221.9452 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +7195,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
-			(at 220.98 78.74 0)
+			(at 220.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +7204,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 220.98 78.74 0)
+			(at 220.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +7213,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
-			(at 220.98 78.74 0)
+			(at 220.98 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,7 +7861,7 @@
 	)
 	(symbol
 		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
-		(at 220.98 97.79 0)
+		(at 220.98 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7577,7 +7869,7 @@
 		(dnp no)
 		(uuid "b6b7e070-0e2a-4ed5-a2b9-534b6b631c6b")
 		(property "Reference" "C6"
-			(at 221.615 95.25 0)
+			(at 221.615 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7878,7 @@
 			)
 		)
 		(property "Value" "470uF 63V"
-			(at 221.615 100.33 0)
+			(at 221.615 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +7887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 221.9452 101.6 0)
+			(at 221.9452 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7896,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
-			(at 220.98 97.79 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7905,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 220.98 97.79 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7914,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
-			(at 220.98 97.79 0)
+			(at 220.98 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,6 +7932,92 @@
 			(project "BEMF_BLDC"
 				(path "/aeb68331-6711-40f3-bf75-cc15a682417a"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5408")
+		(at 229.87 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7631ce5-a726-407b-87d3-dea15f934125")
+		(property "Reference" "D26"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 229.87 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 229.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "788ef724-482d-4f59-b820-31944dad6b01")
+		)
+		(pin "2"
+			(uuid "1bd40b9d-308d-43ee-a737-b858753bc268")
+		)
+		(instances
+			(project "H_Bridge_BLDC"
+				(path "/aeb68331-6711-40f3-bf75-cc15a682417a"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -8150,6 +8528,92 @@
 			(project "BEMF_BLDC"
 				(path "/aeb68331-6711-40f3-bf75-cc15a682417a"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5408")
+		(at 231.14 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1c5b725-ad23-4a04-ad45-2f1a125ec277")
+		(property "Reference" "D28"
+			(at 231.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5408"
+			(at 231.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(at 231.14 97.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 231.14 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ee862bc-7dfb-4fd6-b1f7-da74bca81970")
+		)
+		(pin "2"
+			(uuid "9ba0ee5a-52a0-47a4-b89c-7c70ca8b9422")
+		)
+		(instances
+			(project "H_Bridge_BLDC"
+				(path "/aeb68331-6711-40f3-bf75-cc15a682417a"
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -8819,7 +9283,7 @@
 	)
 	(symbol
 		(lib_id "Components:470-uF-63V-ESK477M063AL4EA")
-		(at 220.98 33.02 0)
+		(at 220.98 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8827,7 +9291,7 @@
 		(dnp no)
 		(uuid "ee25e848-4b93-46dc-ba7a-ed86e92817b3")
 		(property "Reference" "C3"
-			(at 221.615 30.48 0)
+			(at 221.615 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +9300,7 @@
 			)
 		)
 		(property "Value" "470uF 63V"
-			(at 221.615 35.56 0)
+			(at 221.615 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +9309,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 221.9452 36.83 0)
+			(at 221.9452 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +9318,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/ESK477M063AL4EA"
-			(at 220.98 33.02 0)
+			(at 220.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +9327,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 220.98 33.02 0)
+			(at 220.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +9336,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.nl/short/2thtjq03"
-			(at 220.98 33.02 0)
+			(at 220.98 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
